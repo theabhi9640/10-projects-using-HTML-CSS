@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.outer {
+    width: 700px;
+    height: 800px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+}
+
+.outer h1 {
+    text-align: center;
+}
+
+.outer pre {
+    font-size: 20px;
+}
+
+.border {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(193, 193, 193);
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+h2 {
+    float: right;
+}
