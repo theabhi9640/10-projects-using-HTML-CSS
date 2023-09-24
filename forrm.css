@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form {
+    padding: 20px;
+    background-color: rgb(188, 228, 253);
+    /* display: inline-block; */
+    /* padding-right: 50%; */
+    padding-left: 10px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 70px;
+    background-color: red;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 5px;
+    float: right;
+}
+
+button:hover {
+    width: 80px;
+    background-color: rgb(165, 243, 158);
+    border: 3px solid red;
+}
