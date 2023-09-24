@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-image: url(images/background.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
