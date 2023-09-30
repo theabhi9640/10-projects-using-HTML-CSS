@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(bg.jpg);
+    background-image: url(images/bg.jpg);
     background-size: 100%;
     color: white;
     font-family: 'mulish', sans-serif;
@@ -76,9 +76,14 @@ ul li a:hover {
     border: none;
     margin-top: 50px;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .text button:hover {
     border: 3px solid white;
     background-color: red;
+}
+
+nav #lear {
+    border: 2px solid white;
 }
