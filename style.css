@@ -1,98 +1,96 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-
-
-.container {
-    background-color: #E5E5FD;
-    min-height: 100vb;
-    border: 10px solid #1d1e4c;
-}
-
-.content {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.image_container,
-img {
-    width: 300px;
-    height: 320px;
-}
-
-
-.image_container {
-    border-radius: 50%;
+.header {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
     overflow: hidden;
+    position: relative;
 }
 
-.top_section {
+nav {
     display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    align-items: flex-end;
+    padding: 20px 100px;
+    align-items: center;
 }
 
-.top_section h1 {
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    text-align: right;
+    display: inline;
+    list-style: none;
+    flex: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background: #dbfa2c;
+    color: black;
+    border: 2px solid rgb(240, 7, 7);
+    width: 160px;
+}
+
+.main-text {
+    margin: 15% auto;
+    text-align: center;
+}
+
+.main-text h1 {
     font-size: 50px;
-    font-weight: bold;
-    color: #1d1e4c;
-    text-transform: uppercase;
 }
 
-.top_section h4 {
-    text-align: end;
-    font-size: 30px;
+.main-text .button {
+    text-decoration: none;
+    display: block;
+    width: 140px;
+    height: 35px;
+    margin: 25px auto;
+    color: #fff;
+    line-height: 35px;
+    border: 1px solid #fff;
+    border-radius: 20px;
 }
 
-.about_section {
-    margin-top: 50px;
+.button:hover {
+    background: #dbfa2c;
+    color: black;
+    transition: 0.5s;
 }
 
-.about_section h2 {
-    font-size: 70px;
-    font-weight: 400;
-    margin-bottom: 20px;
+.bottom-img {
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.2;
+    animation: animate 8s linear infinite;
 }
 
-.about_section p {
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 1.2px;
-    text-align: justify;
-}
+@keyframes animate {
+    0% {
+        left: 0;
+    }
 
-.biogarphy-section {
-    margin: 50px 0;
-}
-
-.biogarphy-section h3 {
-    margin-bottom: 20px;
-    font-weight: 800;
-}
-
-.biogarphy-section ul {
-    margin-left: 50px;
-}
-
-.biogarphy-section li {
-    margin-bottom: 10px;
-    font-family: Arial;
-}
-
-footer {
-    margin: 50px 0;
-
-}
-
-footer p {
-    text-align: end;
-}
-
-#wrapper {
-    width: 90%;
-    margin-left: 5%;
+    100% {
+        left: -1900px;
+    }
 }
