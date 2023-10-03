@@ -1,52 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#login {
-    width: 300px;
-    height: 280px;
+.form {
+    width: 400px;
+    height: 330px;
     border-style: solid;
     margin: auto;
-    border-width: 5px;
-    border-color: red green orange blue;
+    text-align: center;
     border-radius: 5px 90px 5px 90px;
     margin-top: 100px;
-    text-align: center;
+    background: linear-gradient(90deg, orange, purple);
+    border-color: transparent;
+}
+
+#textbox {
+    width: 300px;
+    padding: 10px;
+    border: none;
 }
 
 h1 {
     color: white;
-    margin-top: 15px;
-}
-
-h1:hover {
-    color: red;
-    transition: 0.6s ease;
-}
-
-body {
-    background-color: black;
-}
-
-#textbox {
-    width: 200px;
-    padding: 5px;
-    border-radius: 2px 12px 2px 12px;
-    margin-top: 15px;
 }
 
 #btn {
-    width: 100px;
-    padding: 5px;
-    background-color: red;
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(90deg, orange, purple);
     color: white;
-    border-radius: 2px 12px 2px 12px;
+    border-radius: 2px 24px 2px 24px;
 }
 
 #btn:hover {
-    background-color: white;
+    background: white;
     color: black;
-    transition: 0.6s ease;
+    transition: 0.6s, ease;
     cursor: pointer;
 }
